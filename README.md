@@ -1,6 +1,6 @@
 # threejs-plane-planet
 
-A simple plane who turn around a planet in threejs 
+A simple plane who turn around a planet in threejs  
 
-![screenshot](./images/screenshot.png)
+<img src="./images/screenshot.png" width=270 height=600>
 
