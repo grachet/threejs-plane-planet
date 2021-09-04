@@ -2,5 +2,5 @@
 
 A simple plane who turn around a planet in threejs  
 
-<img src="./images/screenshot.jpg"   height=600>
+<img src="./images/screenshot.jpg"   height=300>
 
