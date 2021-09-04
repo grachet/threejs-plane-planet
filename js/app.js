@@ -93,7 +93,6 @@ function init() {
     }, true);
     ///////////////
 
-    panel = document.getElementById('panel');
 
     function hideCommandePanel() {
         document.getElementById('commandPanel').style.display = 'none';
@@ -101,24 +100,6 @@ function init() {
     }
 
     function onKey() {
-
-        newIdPanel = getIDPanel(planet.rotation.x, planet.rotation.y);
-
-        if (idPanel !== newIdPanel && !!newIdPanel) {
-            panel.style.display = "block"
-            idPanel = newIdPanel;
-
-            document.getElementById('about').style.display = 'none';
-            document.getElementById('studies').style.display = 'none';
-            document.getElementById('hireMe').style.display = 'none';
-            document.getElementById('jobs').style.display = 'none';
-            document.getElementById('projects').style.display = 'none';
-            document.getElementById(newIdPanel).style.display = 'block';
-
-        } else if (!newIdPanel) {
-            idPanel = undefined;
-            panel.style.display = "none"
-        }
 
         ////// opposite keys
         if ((keyState.ArrowUp && keyState.ArrowDown) || (keyState.ArrowLeft && keyState.ArrowRight)) {

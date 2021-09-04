@@ -12,29 +12,11 @@
         #soundIcon { 
             cursor: url('./images/red-click.svg'), default;
             position: absolute;
-            top: 80px;
-            left: 20px;
-            height: 40px;
-            width: 40px;
-        }
-
-        #flagIcon {
-            cursor: url('./images/red-click.svg'), default;
-            position: absolute;
             height: 40px;
             width: 40px;
             top: 20px;
             left: 20px;
         } 
-
-        #cvIcon { 
-            cursor: url('./images/red-click.svg'), default;
-            position: absolute;
-            top: 140px;
-            left: 20px;
-            height: 40px;
-            width: 40px;
-        }
 
         #panel { 
             display: none;
